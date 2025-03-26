@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admas Alemu | Personal Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/55/Wheat_field_and_blue_sky.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    header, footer {
+      background-color: rgba(0, 51, 102, 0.9);
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .profile-image {
+      max-width: 200px;
+      border-radius: 100px;
+      margin: 1rem auto;
+      display: block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .gallery img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 0.5rem 0;
+    }
+    .social-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #003366;
+    }
+    .download-cv {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #003366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .start-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .start-buttons a {
+      background-color: #003366;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .start-buttons a:hover {
+      background-color: #0055aa;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .start-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/admas.jpg" alt="Admas Alemu" class="profile-image">
+    <h1>Admas Alemu</h1>
+    <p>Plant Breeding & Genomics | SLU Alnarp</p>
+    <div class="start-buttons">
+      <a href="#about">About Me</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an assistant professor at the Swedish University of Agricultural Sciences (SLU) in Alnarp, with a background in plant breeding and genomics. My research focuses on genetic diversity, adaptation and improving environmental sustainability in crop plants.</p>
+    <a class="download-cv" href="/mnt/data/Admas-CV-latest-.pdf" download>Download CV</a>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>I involved in research projects involving genomic and phenomic studies on traits.I use approaches including GWAS, genomic selection, and machine learning to support crop improvement.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li><a href="https://www.cell.com/molecular-plant/fulltext/S1674-2052(24)00080-7">Alemu et al., 2024 – Genomic selection in plant breeding: Key factors shaping two decades of progress.</a></li>
+      <li><a href="https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2021.661742/full">Alemu et al., 2021 – Genome-Wide Association Analysis and Genomic Prediction for Adult-Plant Resistance to Septoria Tritici Blotch and Powdery Mildew in Winter Wheat.</a></li>
+      <li><a href="https://scholar.google.com/citations?user=-un3kiAAAAAJ">Alemu et al., 2021 – Genomic selection under multi-environment trials.</a></li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Wheat_field_with_blue_sky.jpg" alt="Wheat Field">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Wheat_field_and_blue_sky.jpg" alt="Wheat Landscape">
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: admas.alemu@slu.se</p>
+    <div class="social-links">
+      <a href="https://se.linkedin.com/in/admas-alemu-abebe-084a196b">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=-un3kiAAAAAJ">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Admas-Alemu">ResearchGate</a>
+      <a href="https://www.slu.se/en/ew-cv/admas-alemu-abebe/">SLU Profile</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Admas Alemu</p>
+  </footer>
+</body>
+</html>
